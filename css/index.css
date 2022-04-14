@@ -1,13 +1,10 @@
 /* 
 PALETA DE CORES
-#00f7c0
-#c1e570
-#002dc4
-#d83eb3
-#ff9dac
-
-#88df8e
-#6d91ac
+--light-green: #88df8eff;
+--true-blue: #3066beff;
+--orange: #f77f00ff;
+--china-pink: #e072a4ff;
+--maximum-yellow-red: #fcbf49ff;
 */
 
 
@@ -15,7 +12,7 @@ PALETA DE CORES
 header{
     display:flex;
     justify-content: space-between;
-    background-color: #055cad;
+    background-color: #3066beff;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
@@ -27,7 +24,7 @@ nav{
 a{
     display: inline-flex;
     align-items: center;
-    color: #d83eb3;
+    color: #F77F00;
     font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -53,4 +50,6 @@ a::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
     margin-right: 0;
 }
 
-
+body{
+    background-color: #88df8eff;
+}
