@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;
+    background-color:#88df8e;
+    /*height: 60px;  sempre colocar tamanho da linha do tamanho da caixa para centralizar texto */
+    /* line-height: 60px; */
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000; /* x y(de cima para baixo) blur cor */
+    margin-right: 0;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+    font-size: 20px;
+    color: #F77F00 ;
+    text-decoration: none;
+}
+
+
+
+.button:hover{
+    transform: scale(1.05);
+}

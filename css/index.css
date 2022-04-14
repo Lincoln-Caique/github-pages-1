@@ -8,54 +8,11 @@ PALETA DE CORES
 */
 
 
-
-header{
-    display:flex;
-    justify-content: space-between;
-    background-color: #3066beff;
-    border-bottom: 10px solid #000;
-    padding: 10px 20px;
-}
-
-nav{
-    text-align: right;
-}
-
-a{
-    display: inline-flex;
-    align-items: center;
-    color: #F77F00;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
-    content: "";
-    background-color: #88df8e;
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-}
-
-#button{
-    display: inline-block;
-    background-color:#88df8e;
-    /*height: 60px;  sempre colocar tamanho da linha do tamanho da caixa para centralizar texto */
-    /* line-height: 60px; */
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px #000; /* x y(de cima para baixo) blur cor */
-    margin-right: 0;
-    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
-}
-
 body{
-    background-color: #88df8eff;
+    background-color: #fcbf49ff;
 }
 
 
-#button:hover{
-    transform: scale(1.05);
-}
+
+
+
