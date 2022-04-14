@@ -1,0 +1,59 @@
+/* 
+
+PALETA DE CORES
+.color1 {color: #00f7c0;}
+.color2 {color: #c1e570;}
+.color3 {color: #002dc4;}
+.color4 {color: #d83eb3;}
+.color5 {color: #ff9dac;} 
+
+#88df8e
+#6d91ac
+
+
+*/
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #055cad;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #d83eb3;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
+    content: "";
+    background-color: #88df8e;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+#button{
+    display: inline-block;
+    background-color:#88df8e;
+    /*height: 60px;  sempre colocar tamanho da linha do tamanho da caixa para centralizar texto */
+    /* line-height: 60px; */
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000; /* x y(de cima para baixo) blur cor */
+    margin-right: 0;
+}
+
+
