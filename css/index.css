@@ -48,8 +48,14 @@ a::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000; /* x y(de cima para baixo) blur cor */
     margin-right: 0;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
 }
 
 body{
     background-color: #88df8eff;
+}
+
+
+#button:hover{
+    transform: scale(1.05);
 }
