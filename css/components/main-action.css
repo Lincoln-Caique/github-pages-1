@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #F77F00;
@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 
-.action::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
+.main-action::before{ /*pseudo elemento -> acrescenta quadrados em todos os elementos a*/
     content: "";
     background-color: #88df8e;
     width: 10px;
