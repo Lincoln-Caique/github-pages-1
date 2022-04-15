@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-block;
     background-color:#88df8e;
     /*height: 60px;  sempre colocar tamanho da linha do tamanho da caixa para centralizar texto */
@@ -14,11 +14,11 @@
 
 
 
-.button:hover{
+.main-button:hover{
     transform: scale(1.05);
 }
 
 
-.navigation .button{
+.navigation .main-button{
     box-shadow: 5px 5px 0px #FFF; 
 }
