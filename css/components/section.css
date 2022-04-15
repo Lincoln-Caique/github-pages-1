@@ -10,3 +10,11 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+
+.section.-bgcolor{
+    background-color: #000;
+}
+
+.section.-border{
+    border-color: #e072a4ff;
+}
